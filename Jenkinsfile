@@ -6,7 +6,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 echo 'Cloning repository'
-                git branch: 'main', url: 'https://github.com/<your-username>/devops-microservices-project.git'
+                git branch: 'main', url: 'git branch: 'master', url: 'https://github.com/ANONYMOUSDAWGG/DEVOPS-PROJECT.git''
             }
         }
 
