@@ -6,7 +6,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 echo 'Cloning repository'
-                git branch: 'master', url: 'https://github.com/ANONYMOUSDAWGG/DEVOPS-PROJECT.git''
+                git branch: 'master', url: 'https://github.com/ANONYMOUSDAWGG/DEVOPS-PROJECT.git'
             }
         }
 
